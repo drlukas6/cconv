@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
-project(CConv C)
+project(cconv C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(CConv
-        main.c)
+add_executable(cconv main.c)
